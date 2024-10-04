@@ -1,0 +1,48 @@
+package com.ecart.sales_order.serviceImpl;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.ecart.sales_order.exceptions.ResourceAlreadyExistsException;
+import com.ecart.sales_order.model.SalesOrder;
+import com.ecart.sales_order.repository.SalesRepository;
+import com.ecart.sales_order.service.SalesService;
+
+public class SalesServiceImpl implements SalesService{
+	
+	public SalesRepository salesRepo;
+
+	@Override
+	public SalesOrder addSalesOrder(SalesOrder salesOrder) {
+		Optional<SalesOrder> order= salesRepo.findById(salesOrder.getOrderId());
+		if(order.isPresent()) {
+			throw new ResourceAlreadyExistsException("Order is already existed");
+		}
+		return salesRepo.save(salesOrder);
+	}
+
+	@Override
+	public List<SalesOrder> getAllOrders() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public SalesOrder getOrdersById(int orderId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public SalesOrder updateOrder(SalesOrder salesOrder) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public SalesOrder deleteOrder(int orderId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

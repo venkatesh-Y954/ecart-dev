@@ -1,0 +1,26 @@
+package com.ecart.customer.serviceImpl;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ecart.customer.exceptions.ResourceAlreadyExistsException;
+import com.ecart.customer.model.Customer;
+import com.ecart.customer.repository.CustomerRepository;
+import com.ecart.customer.service.CustomerService;
+
+public class CustomerServiceImpl implements CustomerService
+{
+	@Autowired
+	private CustomerRepository customerRepo;
+
+	@Override
+	public Customer addCustomer(Customer customer) {
+		Optional<Customer> existCustomer= customerRepo.findById(customer.getCustomerId());	
+		if(existCustomer.isPresent()) {
+			throw new ResourceAlreadyExistsException("Alreay customer existed with ID:"+customer.getCustomerId());
+		}
+		return customerRepo.save(customer);
+	}
+
+}

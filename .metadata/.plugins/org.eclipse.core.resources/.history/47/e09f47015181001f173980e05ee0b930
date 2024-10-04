@@ -1,0 +1,9 @@
+package com.ecart.customer.service;
+
+import com.ecart.customer.model.Customer;
+
+public interface CustomerService {
+	
+	public Customer addCustomer(Customer customer);
+
+}

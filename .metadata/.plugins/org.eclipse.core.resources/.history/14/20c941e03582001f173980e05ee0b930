@@ -1,0 +1,13 @@
+spring.application.name=sales-order
+server.port=8092
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://root@127.0.0.1:3306/ecart
+spring.datasource.username=root
+spring.datasource.password=Mysql@123
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+spring.config.import=optionl:configserver:http://localhost:8093
+
+management.endpoints.web.exposure.include=*

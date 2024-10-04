@@ -1,0 +1,58 @@
+package com.ecart.sales_order.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ecart.sales_order.model.SalesOrder;
+import com.ecart.sales_order.serviceImpl.SalesServiceImpl;
+
+@RestController
+public class SalesController {
+	
+	@Autowired
+	private SalesServiceImpl salesService;
+	
+	@PostMapping("/addOrder")
+	public ResponseEntity<SalesOrder> addOrder(@RequestBody SalesOrder salesOrder){
+		
+		SalesOrder order=salesService.addSalesOrder(salesOrder);
+		return new ResponseEntity<>(order,HttpStatus.OK);
+	}
+	
+	@GetMapping("/getAllOrders")
+	public ResponseEntity<List<SalesOrder>> getAllOrder(){
+		List<SalesOrder> orders=salesService.getAllOrders();
+		
+		return new ResponseEntity<>(orders,HttpStatus.OK);
+	}
+	
+	@GetMapping("/getOrderById/{orderId}")
+	public ResponseEntity<SalesOrder> getOrderById(@PathVariable int orderId){
+		SalesOrder order=salesService.getOrdersById(orderId);
+		return new ResponseEntity<>(order,HttpStatus.OK);
+	}
+	
+	@PutMapping("/updateOrder")
+	public ResponseEntity<SalesOrder> updateOrder(@RequestBody SalesOrder salesOrder){
+		SalesOrder order=salesService.updateOrder(salesOrder);
+		return new ResponseEntity<>(order,HttpStatus.OK);
+	}
+	
+	@DeleteMapping("/deleteOrder/{orderId}")
+	public ResponseEntity<SalesOrder> deleteOrder(@PathVariable int orderId){
+		SalesOrder order=salesService.deleteOrder(orderId);
+		return new ResponseEntity<>(order,HttpStatus.OK);
+	}
+	
+
+}

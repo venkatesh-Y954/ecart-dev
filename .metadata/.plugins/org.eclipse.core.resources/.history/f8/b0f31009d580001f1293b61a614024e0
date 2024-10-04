@@ -1,0 +1,12 @@
+package com.ecart.Products.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+import com.ecart.Products.model.Product;
+
+public interface ProductsRepository extends JpaRepository<Product, String>{
+
+	//Product findByName(String name);
+
+}

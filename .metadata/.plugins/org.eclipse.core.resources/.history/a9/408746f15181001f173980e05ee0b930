@@ -1,0 +1,55 @@
+package com.ecart.customer.serviceImpl;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ecart.customer.exceptions.ResourceAlreadyExistsException;
+import com.ecart.customer.exceptions.ResourceNotFoundException;
+import com.ecart.customer.model.Customer;
+import com.ecart.customer.repository.CustomerRepository;
+import com.ecart.customer.service.CustomerService;
+
+public class CustomerServiceImpl implements CustomerService
+{
+	@Autowired
+	private CustomerRepository customerRepo;
+
+	@Override
+	public Customer addCustomer(Customer customer) {
+		Optional<Customer> existCustomer= customerRepo.findById(customer.getCustomerId());	
+		if(existCustomer.isPresent()) {
+			throw new ResourceAlreadyExistsException("Alreay customer existed with ID:"+customer.getCustomerId());
+		}
+		return customerRepo.save(customer);
+	}
+
+	@Override
+	public List<Customer> getAllCustomers() {
+		List<Customer> customers=customerRepo.findAll();
+		return customers;
+	}
+
+	@Override
+	public Customer getByCustomerId(int customerId) {
+		Customer customer=customerRepo.findById(customerId).orElseThrow(
+				()-> new ResourceNotFoundException("Customer","Customer ID",""+customerId)
+				);
+				
+		return null;
+	}
+
+	@Override
+	public Customer updateCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer deleteCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

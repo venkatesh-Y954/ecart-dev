@@ -1,0 +1,5 @@
+package com.ecart.customer.repository;
+
+public class CustomerRepository {
+
+}

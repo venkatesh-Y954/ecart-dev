@@ -1,0 +1,2406 @@
+!SESSION 2024-10-02 21:07:22.446 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-02 21:07:57.948
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-02 21:07:58.350
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-02 21:08:19.936
+!MESSAGE Logback config file: C:\Users\2159971\Documents\Online-Shopping\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-10-02 21:08:22.691
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-02 21:08:22.691
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-02 21:08:30.639
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\2159971'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:08:53.538
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:09:02.598
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:09:02.629
+!MESSAGE Boot project ADDED: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:09:02.630
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:09:02.676
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:09:02.741
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-02 21:09:02.826
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\New folder\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\classes;C:\New folder\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\New folder\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/2159971/Documents/Online-Shopping/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1727883542824
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:09:02.827
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-02 21:09:03.379
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 57824
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:09:04.285
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-02 21:11:20.850
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-02 21:14:41.312
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2024-10-03 09:26:17.045
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-03 09:26:17.045
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 09:27:03.569
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 09:27:03.829
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-10-03 09:51:58.498
+!MESSAGE Builder must not be set
+!STACK 0
+java.lang.IllegalStateException: Builder must not be set
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parseToHtml(MarkupParser.java:114)
+	at org.eclipse.lsp4e.LSPEclipseUtils.lambda$27(LSPEclipseUtils.java:1357)
+	at org.eclipse.lsp4j.jsonrpc.messages.Either.map(Either.java:75)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getHtmlDocString(LSPEclipseUtils.java:1346)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:349)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-03 09:59:53.176
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 09:59:54.543
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 09:59:54.891
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-03 10:16:08.469
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 10:16:09.888
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 10:16:10.095
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-03 10:16:11.414
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-03 10:16:12.029
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 10:16:13.092
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 10:19:19.484
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:18:42.613
+!MESSAGE Classpath changed for project: customer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:18:42.615
+!MESSAGE Boot project ADDED: customer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:19:12.741
+!MESSAGE Classpath changed for project: sales-order
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:19:12.742
+!MESSAGE Boot project ADDED: sales-order
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 11:43:50.965
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-10-03 11:46:02.037 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-03 11:47:14.100
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-03 11:47:14.830
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-03 11:47:26.398
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-03 11:47:30.261
+!MESSAGE Logback config file: C:\Users\2159971\Documents\Online-Shopping\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-10-03 11:47:38.005
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-03 11:47:38.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-03 11:47:53.811
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\New folder\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\classes;C:\New folder\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\New folder\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/2159971/Documents/Online-Shopping/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1727936273799
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:47:53.813
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-10-03 11:47:55.125
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2140
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-03 11:48:06.248
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\2159971'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:48:07.321
+!MESSAGE Boot project ADDED: customer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:48:07.322
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:48:07.324
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:48:07.326
+!MESSAGE Boot project ADDED: products
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 11:48:07.327
+!MESSAGE Boot project ADDED: sales-order
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-03 11:48:44.525
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-10-03 11:49:40.413
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type jakarta.servlet.jsp.tagext.BodyTag cannot be resolved. It is indirectly referenced from required type org.springframework.web.servlet.tags.form.OptionTag
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5183)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2451)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:512)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.isInherited(UnresolvedElementsSubProcessor.java:944)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarTypeProposals(UnresolvedElementsSubProcessor.java:917)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:686)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:456)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:379)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:384)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:337)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 11:49:47.199
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 11:56:59.620
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 12:05:33.200
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2024-10-03 12:05:33.201
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): ResourceNotFoundException(String, String, String) [in ResourceNotFoundException [in [Working copy] ResourceNotFoundException.java [in com.ecart.customer.exceptions [in src/main/java [in customer]]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:549)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:592)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:303)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:289)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:303)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:645)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:521)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:753)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:63)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-10-03 12:05:33.202
+!MESSAGE ResourceNotFoundException(String, String, String) [in ResourceNotFoundException [in [Working copy] ResourceNotFoundException.java [in com.ecart.customer.exceptions [in src/main/java [in customer]]]]] does not exist
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 12:07:56.159
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2024-10-03 12:37:37.343
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-03 12:37:37.343
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 16:54:29.361
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 18:21:10.453
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 18:23:37.553
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 18:25:53.205
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 18:26:11.964
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2024-10-03 18:41:20.727
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java)[368]: java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-10-03 18:41:20.728
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2024-10-03 18:41:20.759
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java)[368]: java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-10-03 18:41:20.759
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2024-10-03 18:41:20.761
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java)[368]: java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-10-03 18:41:20.761
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/Customer.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2024-10-03 18:41:47.948
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java)[368]: java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-10-03 18:41:47.949
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2024-10-03 18:41:47.951
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java)[368]: java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-10-03 18:41:47.952
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2024-10-03 18:41:47.955
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java)[368]: java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2024-10-03 18:41:47.955
+!MESSAGE Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/sales-order/src/main/java/com/ecart/sales_order/model/CustomerSales.java' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:276)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.getContentType(ResourceTextFileBuffer.java:187)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.getContentTypes(ContentTypeHelper.java:109)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypesFromFileBuffers(ContentTypeHelper.java:92)
+	at org.eclipse.tm4e.ui.internal.utils.ContentTypeHelper.findContentTypes(ContentTypeHelper.java:55)
+	at org.eclipse.tm4e.languageconfiguration.internal.HasLanguageConfigurationPropertyTester.test(HasLanguageConfigurationPropertyTester.java:46)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isCoreExpressionVisible(ContributionsAnalyzer.java:281)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:101)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$3(WorkbenchWindow.java:868)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameTypeWizardInputPage.performFinish(RenameTypeWizardInputPage.java:151)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:41)
+	at org.eclipse.jdt.internal.ui.refactoring.UserInterfaceStarter.activate(UserInterfaceStarter.java:65)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.RenameUserInterfaceStarter.activate(RenameUserInterfaceStarter.java:35)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:165)
+	at org.eclipse.jdt.ui.refactoring.RenameSupport.openDialog(RenameSupport.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:252)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameJavaElementAction.run(RenameJavaElementAction.java:123)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:113)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 18:51:41.913
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 21:34:14.482
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 21:39:34.962
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 21:41:14.323
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 21:46:51.055
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 21:50:57.397
+!MESSAGE Classpath changed for project: configserver
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 21:50:57.398
+!MESSAGE Boot project ADDED: configserver
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-03 22:16:52.019
+!MESSAGE Classpath changed for project: customer
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-10-03 22:17:58.404
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleValue failed
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.jdt.internal.compiler.ast.FieldDeclaration cannot be cast to class org.eclipse.jdt.internal.compiler.ast.TypeDeclaration (org.eclipse.jdt.internal.compiler.ast.FieldDeclaration and org.eclipse.jdt.internal.compiler.ast.TypeDeclaration are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3d48fb56)
+	at lombok.eclipse.handlers.HandleValue.handle(HandleValue.java:66)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:106)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnField(TransformEclipseAST.java:249)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:110)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:79)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:226)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:187)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:146)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:272)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:12003)
+	at org.eclipse.jdt.internal.core.util.CommentRecorderParser.endParse(CommentRecorderParser.java:131)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.endParse(SourceElementParser.java:830)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13205)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13435)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13392)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.parseCompilationUnit(SourceElementParser.java:1122)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:196)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:572)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:170)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1326)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1285)
+	at org.eclipse.jdt.core.refactoring.CompilationUnitChange.releaseDocument(CompilationUnitChange.java:98)
+	at org.eclipse.ltk.core.refactoring.TextChange.perform(TextChange.java:250)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:179)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.AddImportCorrectionProposal.performChange(AddImportCorrectionProposal.java:66)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:230)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:561)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1107)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:725)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5798)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1961)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5366)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4800)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:162)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:2025)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5179)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4781)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-10-03 22:17:58.571
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleValue failed
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.jdt.internal.compiler.ast.FieldDeclaration cannot be cast to class org.eclipse.jdt.internal.compiler.ast.TypeDeclaration (org.eclipse.jdt.internal.compiler.ast.FieldDeclaration and org.eclipse.jdt.internal.compiler.ast.TypeDeclaration are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3d48fb56)
+	at lombok.eclipse.handlers.HandleValue.handle(HandleValue.java:66)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:106)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnField(TransformEclipseAST.java:249)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:110)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:79)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:226)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:187)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:146)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:272)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:12003)
+	at org.eclipse.jdt.internal.core.util.CommentRecorderParser.endParse(CommentRecorderParser.java:131)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13205)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13435)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13392)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11774)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:850)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:393)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1037)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1110)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:348)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:190)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1326)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-10-03 22:18:00.269
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleValue failed
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.jdt.internal.compiler.ast.FieldDeclaration cannot be cast to class org.eclipse.jdt.internal.compiler.ast.TypeDeclaration (org.eclipse.jdt.internal.compiler.ast.FieldDeclaration and org.eclipse.jdt.internal.compiler.ast.TypeDeclaration are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3d48fb56)
+	at lombok.eclipse.handlers.HandleValue.handle(HandleValue.java:66)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:106)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnField(TransformEclipseAST.java:249)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:110)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:79)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:226)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:187)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:146)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:272)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:12003)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13205)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13435)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.parse(SelectionParser.java:1870)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13392)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11774)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.dietParse(SelectionParser.java:1694)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:995)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:389)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:63)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 22:20:19.501
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:330)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 22:20:20.254
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:330)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-03 22:20:20.602
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:330)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-10-03 22:20:21.867
+!MESSAGE 2 elements not closed
+!STACK 0
+java.lang.IllegalStateException: 2 elements not closed
+	at org.eclipse.mylyn.wikitext.util.DefaultXmlStreamWriter.writeEndDocument(DefaultXmlStreamWriter.java:251)
+	at org.eclipse.mylyn.wikitext.parser.builder.HtmlDocumentBuilder$DefaultDocumentHandler.endDocument(HtmlDocumentBuilder.java:592)
+	at org.eclipse.mylyn.wikitext.parser.builder.HtmlDocumentBuilder.endDocument(HtmlDocumentBuilder.java:723)
+	at org.eclipse.mylyn.wikitext.parser.markup.AbstractMarkupLanguage.processContent(AbstractMarkupLanguage.java:354)
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parse(MarkupParser.java:93)
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parse(MarkupParser.java:83)
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parseToHtml(MarkupParser.java:121)
+	at org.eclipse.lsp4e.LSPEclipseUtils.lambda$27(LSPEclipseUtils.java:1357)
+	at org.eclipse.lsp4j.jsonrpc.messages.Either.map(Either.java:75)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getHtmlDocString(LSPEclipseUtils.java:1346)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:349)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 22:21:17.201
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 22:21:41.356
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 22:21:57.527
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-03 22:22:08.980
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 10:35:11.631
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 10:38:55.037
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 13:45:49.952
+!MESSAGE Classpath changed for project: customer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 13:45:52.905
+!MESSAGE Classpath changed for project: customer
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-04 14:04:13.374
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 14:25:38.514
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 14:35:59.444
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 14:53:12.270
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-04 14:56:46.017
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:330)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-04 14:56:46.725
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:330)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-04 14:58:26.984
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 14:58:28.330
+!MESSAGE Classpath changed for project: products
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 14:59:55.694
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 15:13:56.646
+!MESSAGE Classpath changed for project: sales-order
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 15:17:42.331
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 15:19:13.292
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 15:20:12.372
+!MESSAGE Classpath changed for project: sales-order
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 15:20:14.834
+!MESSAGE Classpath changed for project: sales-order
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-04 16:57:51.348
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 16:57:53.333
+!MESSAGE Classpath changed for project: configserver
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 16:57:55.425
+!MESSAGE Classpath changed for project: configserver
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 16:58:45.362
+!MESSAGE Classpath changed for project: configserver
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-10-04 17:00:37.683
+!MESSAGE Classpath changed for project: configserver
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-10-04 17:03:52.603
+!MESSAGE No file system is defined for scheme: about
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: about
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.filesystem.EFS.getFileSystem(EFS.java:439)
+	at org.eclipse.lsp4e.LSPEclipseUtils.openEditor(LSPEclipseUtils.java:817)
+	at org.eclipse.lsp4e.LSPEclipseUtils.openFileLocationInEditor(LSPEclipseUtils.java:766)
+	at org.eclipse.lsp4e.LSPEclipseUtils.open(LSPEclipseUtils.java:682)
+	at org.eclipse.lsp4e.LSPEclipseUtils.open(LSPEclipseUtils.java:668)
+	at org.eclipse.lsp4e.LSPEclipseUtils.open(LSPEclipseUtils.java:664)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl$1.changing(FocusableBrowserInformationControl.java:55)
+	at org.eclipse.swt.browser.IE.lambda$6(IE.java:525)
+	at org.eclipse.swt.ole.win32.OleEventTable.sendEvent(OleEventTable.java:57)
+	at org.eclipse.swt.ole.win32.OleEventSink.notifyListener(OleEventSink.java:160)
+	at org.eclipse.swt.ole.win32.OleEventSink.Invoke(OleEventSink.java:128)
+	at org.eclipse.swt.ole.win32.OleEventSink$1.method6(OleEventSink.java:79)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:120)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2024-10-04 17:03:52.604
+!MESSAGE No file system is defined for scheme: about
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 17:04:39.246
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 17:05:04.107
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 17:05:15.783
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 17:05:27.286
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-10-04 19:59:42.159
+!MESSAGE Unable to compute end of document
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformationOfOffset(TreeLineTracker.java:1134)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformationOfOffset(AbstractLineTracker.java:234)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformationOfOffset(AbstractDocument.java:878)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformationOfOffset(SynchronizableDocument.java:301)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toPosition(LSPEclipseUtils.java:184)
+	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:44)
+	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:80)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1333)
+	at org.eclipse.jface.text.codemining.CodeMiningStrategy.reconcile(CodeMiningStrategy.java:56)
+	at org.eclipse.jface.text.reconciler.Reconciler.process(Reconciler.java:151)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-10-04 20:03:09.692
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

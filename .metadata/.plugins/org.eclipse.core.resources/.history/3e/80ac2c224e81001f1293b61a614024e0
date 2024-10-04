@@ -1,0 +1,17 @@
+package com.ecart.customer.serviceImpl;
+
+import com.ecart.customer.model.Customer;
+import com.ecart.customer.repository.CustomerRepository;
+import com.ecart.customer.service.CustomerService;
+
+public class CustomerServiceImpl implements CustomerService
+{
+	private CustomerRepository customerRepo;
+
+	@Override
+	public Customer addCustomer(Customer customer) {
+				
+		return customerRepo.saveAll(customer);
+	}
+
+}

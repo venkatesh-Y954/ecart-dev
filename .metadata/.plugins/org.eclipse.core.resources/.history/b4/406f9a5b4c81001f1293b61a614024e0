@@ -1,0 +1,5 @@
+package com.ecart.customer.model;
+
+public class Customer {
+
+}

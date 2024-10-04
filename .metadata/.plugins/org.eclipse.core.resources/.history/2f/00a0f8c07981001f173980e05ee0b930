@@ -1,0 +1,5 @@
+package com.ecart.sales_order.service;
+
+public class SalesService {
+
+}
