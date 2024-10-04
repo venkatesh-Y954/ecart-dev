@@ -763,3 +763,20 @@
 2024-10-04 20:00:39,309 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-10-04 20:00:39,335 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-10-04 20:00:39,338 [Worker-339: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2159971\Documents\Online-Shopping\configserver\src\test\resources
+2024-10-04 21:06:39,683 [Worker-353: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ecart:products:0.0.1-SNAPSHOT @ C:\Users\2159971\Documents\Online-Shopping\products\pom.xml.
+2024-10-04 21:06:43,284 [Worker-353: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-10-04 21:06:44,419 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:06:44,421 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:06:44,425 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2159971\Documents\Online-Shopping\products\src\test\resources
+2024-10-04 21:07:03,704 [Worker-355: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ecart:sales-order:0.0.1-SNAPSHOT @ C:\Users\2159971\Documents\Online-Shopping\sales-order\pom.xml.
+2024-10-04 21:07:07,315 [Worker-355: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:07:07,317 [Worker-355: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:07:07,321 [Worker-355: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2159971\Documents\Online-Shopping\sales-order\src\test\resources
+2024-10-04 21:07:34,404 [Worker-356: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ecart:customer:0.0.1-SNAPSHOT @ C:\Users\2159971\Documents\Online-Shopping\customer\pom.xml.
+2024-10-04 21:07:38,671 [Worker-356: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:07:38,672 [Worker-356: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:07:38,675 [Worker-356: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2159971\Documents\Online-Shopping\customer\src\test\resources
+2024-10-04 21:07:54,310 [Worker-353: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ecart:configserver:0.0.1-SNAPSHOT @ C:\Users\2159971\Documents\Online-Shopping\configserver\pom.xml.
+2024-10-04 21:07:58,047 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:07:58,048 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-04 21:07:58,051 [Worker-353: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2159971\Documents\Online-Shopping\configserver\src\test\resources
