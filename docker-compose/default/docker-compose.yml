@@ -1,0 +1,55 @@
+services:
+  configserver:
+     image: yvenkatesh954/configserver:v1
+     container_name: configserver-ms
+     ports:
+        - "8093:8093"
+     healthcheck:
+        test: "curl --fail --silent localhost:8071/actuator/health/readiness | grep UP || exit 1"
+        interval: 10s
+        timeout: 5s
+        retries: 10
+        start_period: 10s
+     extends:
+      file: common-config.yml
+      service: microservice-base-config
+  
+  products:
+     image: yvenkatesh954/produts:v1
+     container_name: products-ms
+     ports:
+        - "8090:8090"
+     depends_on:
+        configserver:
+           condition: service_healthy
+     extends:
+        file: common-config.yml
+        service: microservice-configserver-config
+        
+  customer:
+     image: yvenkatesh954/customer:v1
+     container_name: customer-ms
+     ports:
+        - "8091:8091"
+     depends_on:
+        configserver:
+           condition: service_healthy
+     extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+        
+  sales-order:
+     image: yvenkatesh954/sales-order:v1
+     container_name: sales-order-ms
+     ports:
+        - "8092:8092"
+     depends_on:
+        configserver:
+           condition: service_healthy
+     extends:
+      file: common-config.yml
+      service: microservice-configserver-config    
+  networks:
+     ecart:
+        driver: bridge
+        
