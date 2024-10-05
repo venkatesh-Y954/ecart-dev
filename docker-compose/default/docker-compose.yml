@@ -5,7 +5,7 @@ services:
      ports:
         - "8093:8093"
      healthcheck:
-        test: "curl --fail --silent localhost:8071/actuator/health/readiness | grep UP || exit 1"
+        test: "curl --fail --silent localhost:8093/actuator/health/readiness | grep UP || exit 1"
         interval: 10s
         timeout: 5s
         retries: 10
