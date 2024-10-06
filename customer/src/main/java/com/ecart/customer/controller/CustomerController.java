@@ -17,8 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.ecart.customer.dto.CustomerContactInfoDto;
+import com.ecart.customer.dto.CustomerDetailsInfo;
 import com.ecart.customer.model.Customer;
 import com.ecart.customer.serviceImpl.CustomerServiceImpl;
+import com.ecart.customer.serviceImpl.ICustomerDetailsServiceImpl;
 
 
 @RestController
@@ -33,6 +35,9 @@ public class CustomerController {
 	
 	@Autowired
 	private CustomerContactInfoDto customerContactInfoDto;
+	
+	@Autowired
+	private ICustomerDetailsServiceImpl cService;
 	
 	@GetMapping("/getName")
 	public String getName() {
@@ -66,6 +71,12 @@ public class CustomerController {
 	@DeleteMapping("/deleteCustomer/{customerId}")
 	public ResponseEntity<Customer> deleteCustomer(@PathVariable int customerId){
 		Customer customer = customerService.deleteCustomer(customerId);
+		return new ResponseEntity<>(customer,HttpStatus.OK);
+	}
+	
+	@GetMapping("/getCustomerByIdO/{customerId}")
+	public ResponseEntity<CustomerDetailsInfo> getCustomerDetails(@PathVariable int customerId){
+		CustomerDetailsInfo customer=cService.fetchCustomerDetails(customerId);
 		return new ResponseEntity<>(customer,HttpStatus.OK);
 	}
 	

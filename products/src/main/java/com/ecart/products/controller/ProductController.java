@@ -133,6 +133,15 @@ public class ProductController {
 		return ResponseEntity.status(HttpStatus.OK).body(p);
 	}
 	
+	@GetMapping("/getProductByNameO/{productName}")
+	public Product getProductByNameO(@PathVariable String productName)throws Exception{
+		Product p=productService.getProductByName(productName);
+		if(p==null) {
+			throw new Exception("Product not found with given name");
+		}
+		return p;
+	}
+	
 	@Operation(
 			  summary="Delete product REST API",
 			  description="Delete product REST API for products microservice in ecart"

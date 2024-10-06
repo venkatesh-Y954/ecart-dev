@@ -15,4 +15,8 @@ public interface SalesService {
 	public SalesOrder updateOrder(SalesOrder salesOrder);
 	
 	public SalesOrder deleteOrder(int orderId);
+	
+	public List<SalesOrder> getOrdersByCustomerId(int customerId);
+	
+	public List<SalesOrder> getOrdersByProductName(String productName);
 }

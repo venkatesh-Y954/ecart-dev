@@ -75,6 +75,17 @@ public class SalesController {
 		SalesOrder order=salesService.deleteOrder(orderId);
 		return new ResponseEntity<>(order,HttpStatus.OK);
 	}
+	@GetMapping("/getOrderByCustomerId/{customerId}")
+	public List<SalesOrder> getOrderByCustomerId(@PathVariable int customerId){
+		List<SalesOrder> order=salesService.getOrdersByCustomerId(customerId);
+		return order;
+	}
+	@GetMapping("/getOrderByProductName/{productName}")
+	public ResponseEntity<List<SalesOrder>> getOrderById(@PathVariable String productName){
+		List<SalesOrder> order=salesService.getOrdersByProductName(productName);
+		return new ResponseEntity<>(order,HttpStatus.OK);
+	}
+	
 	
 	@GetMapping("/contact-info")
     public ResponseEntity<SalesContactInfoDto> getContactInfo() {

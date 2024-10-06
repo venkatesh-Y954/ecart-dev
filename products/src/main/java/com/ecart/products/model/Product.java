@@ -15,6 +15,9 @@ import jakarta.persistence.Id;
 public class Product {
 	
 	
+	
+	
+	
 	@Schema(
 			description="Name of the product",example="Lays"
 			)
@@ -25,6 +28,7 @@ public class Product {
 			description="Product ID",example="109"
 			)
 	private int productId;
+	
 	
 	@Schema(
 			description="Product Quantity",example="10"

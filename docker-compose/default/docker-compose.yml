@@ -1,6 +1,36 @@
 services:
+  productsdb:
+     container_name: productsdb
+     ports:
+       - "3309:3306"
+     environment:
+       MYSQL_DATABASE: productsdb
+     extends:
+       file: common-config.yml
+       service: microservice-db-config
+  
+  customerdb:
+     container_name: customerdb
+     ports:
+        - "3307:3306"
+     environment:
+        MYSQL_DATABASE: customerdb
+     extends:
+        file: common-config.yml
+        service: microservice-db-config
+
+  sales_orderdb:
+     container_name: sales_orderdb
+     ports:
+       - "3308:3306"
+     environment:
+       MYSQL_DATABASE: sales_orderdb
+     extends:
+       file: common-config.yml
+       service: microservice-db-config
+  
   configserver:
-     image: yvenkatesh954/configserver:v1
+     image: yvenkatesh954/configserver:s1
      container_name: configserver-ms
      ports:
         - "8093:8093"
@@ -13,43 +43,69 @@ services:
      extends:
       file: common-config.yml
       service: microservice-base-config
+      
+  eurekaserver:
+     image: yvenkatesh954/eurekaserver:s1
+     container_name: eurekaserver-ms
+     ports:
+        - "8094:8094"
+     healthcheck:
+        test: "curl --fail --silent localhost:8094/actuator/health/readiness | grep UP || exit 1"
+        interval: 10s
+        timeout: 5s
+        retries: 10
+        start_period: 10s
+     extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+     environment:
+        SPRING_APPLICATION_NAME: "eurekaserver"
   
   products:
-     image: yvenkatesh954/produts:v1
+     image: yvenkatesh954/products:s1
      container_name: products-ms
      ports:
         - "8090:8090"
      depends_on:
-        configserver:
+        productsdb:
            condition: service_healthy
+     environment:
+        SPRING_APPLICATION_NAME: "products"
+        SPRING_DATASOURCE_URL: "jdbc:mysql://productsdb:3306/productsdb"
      extends:
         file: common-config.yml
-        service: microservice-configserver-config
+        service: microservice-eureka-config
         
   customer:
-     image: yvenkatesh954/customer:v1
-     container_name: customer-ms
-     ports:
-        - "8091:8091"
-     depends_on:
-        configserver:
-           condition: service_healthy
-     extends:
-      file: common-config.yml
-      service: microservice-configserver-config
+    image: yvenkatesh954/customer:s1
+    container_name: customer-ms
+    ports:
+       - "8091:8091"    
+    depends_on:
+       customerdb:
+          condition: service_healthy
+    environment:
+       SPRING_APPLICATION_NAME: "customer"
+       SPRING_DATASOURCE_URL: "jdbc:mysql://customerdb:3306/customerdb"
+    extends:
+       file: common-config.yml
+       service: microservice-eureka-config
         
   sales-order:
-     image: yvenkatesh954/sales-order:v1
+     image: yvenkatesh954/sales-order:s1
      container_name: sales-order-ms
      ports:
         - "8092:8092"
      depends_on:
-        configserver:
-           condition: service_healthy
+        sales_orderdb:
+          condition: service_healthy
+     environment:
+        SPRING_APPLICATION_NAME: "sales-order"
+        SPRING_DATASOURCE_URL: "jdbc:mysql://sales_orderdb:3306/sales_orderdb"
      extends:
       file: common-config.yml
-      service: microservice-configserver-config    
-  networks:
-     ecart:
-        driver: bridge
+      service: microservice-eureka-config    
+networks:
+  ecart:
+    driver: bridge
         

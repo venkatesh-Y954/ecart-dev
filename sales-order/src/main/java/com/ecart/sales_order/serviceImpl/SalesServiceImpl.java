@@ -62,4 +62,16 @@ public class SalesServiceImpl implements SalesService{
 		return order;
 	}
 
+	@Override
+	public List<SalesOrder> getOrdersByCustomerId(int customerId) {
+		List<SalesOrder> orders=salesRepo.findByCustomerId(customerId);
+		return orders;
+	}
+
+	@Override
+	public List<SalesOrder> getOrdersByProductName(String productName) {
+		List<SalesOrder> orders=salesRepo.findByProductName(productName);
+		return null;
+	}
+
 }

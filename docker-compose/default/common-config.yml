@@ -3,6 +3,19 @@ services:
       networks:
          - ecart
          
+   microservice-db-config:
+     image: mysql
+     healthcheck:
+       test: ["CMD","mysqladmin","ping","-h","localhost"]
+       timeout: 10s
+       retries: 10
+       interval: 10s
+       start_period: 10s
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+     extends:
+       service: network-deploy-service 
+
    microservice-base-config:
       extends:
          service: network-deploy-service
@@ -14,6 +27,21 @@ services:
    microservice-configserver-config:
      extends:
        service: microservice-base-config
+     depends_on:
+        configserver:
+           condition: service_healthy
      environment:
        SPRING_PROFILES_ACTIVE: default
-       SPRING_CONFIG_IMPORT: configserver:http://configserver:8071/
+       SPRING_CONFIG_IMPORT: configserver:http://configserver:8093/
+       
+       
+   microservice-eureka-config:
+     extends:
+       service: microservice-configserver-config
+     depends_on:
+        eurekaserver:
+           condition: service_healthy
+     environment:
+       SPRING_DATASOURCE_USERNAME: root
+       SPRING_DATASOURCE_PASSWORD: root
+       EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8094/eureka/
