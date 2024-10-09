@@ -66,6 +66,12 @@ services:
      container_name: products-ms
      ports:
         - "8090:8090"
+     healthcheck:
+        test: "curl --fail --silent localhost:8090/actuator/health/readiness | grep UP || exit 1"
+        interval: 10s
+        timeout: 5s
+        retries: 10
+        start_period: 10s
      depends_on:
         productsdb:
            condition: service_healthy
@@ -80,7 +86,13 @@ services:
     image: yvenkatesh954/customer:s1
     container_name: customer-ms
     ports:
-       - "8091:8091"    
+       - "8091:8091" 
+    healthcheck:
+        test: "curl --fail --silent localhost:8091/actuator/health/readiness | grep UP || exit 1"
+        interval: 10s
+        timeout: 5s
+        retries: 10
+        start_period: 10s   
     depends_on:
        customerdb:
           condition: service_healthy
@@ -96,12 +108,35 @@ services:
      container_name: sales-order-ms
      ports:
         - "8092:8092"
+     healthcheck:
+        test: "curl --fail --silent localhost:8092/actuator/health/readiness | grep UP || exit 1"
+        interval: 10s
+        timeout: 5s
+        retries: 10
+        start_period: 10s
      depends_on:
         sales_orderdb:
           condition: service_healthy
      environment:
         SPRING_APPLICATION_NAME: "sales-order"
         SPRING_DATASOURCE_URL: "jdbc:mysql://sales_orderdb:3306/sales_orderdb"
+     extends:
+      file: common-config.yml
+      service: microservice-eureka-config
+  gatewayserver:
+     image: yvenkatesh954/gatewayserver:s1
+     container_name: gatewayserver-ms
+     ports:
+        - "8095:8095"
+     depends_on:
+        products:
+          condition: service_healthy
+        customer:
+          condition: service_healthy
+        sales-order:
+          condition: service_healthy     
+     environment:
+        SPRING_APPLICATION_NAME: "gatewayserver"
      extends:
       file: common-config.yml
       service: microservice-eureka-config    
