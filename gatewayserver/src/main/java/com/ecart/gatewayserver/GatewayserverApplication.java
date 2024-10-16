@@ -21,7 +21,8 @@ public class GatewayserverApplication {
 						.route(p -> p
 								.path("/ecart/products/**")
 								.filters( f -> f.rewritePath("/ecart/products/(?<segment>.*)","/${segment}")
-										.addResponseHeader("X-Response-Time", LocalDateTime.now().toString()))
+										.addResponseHeader("X-Response-Time", LocalDateTime.now().toString())
+										.circuitBreaker(config->config.setName("accountsCircuitBreaker")))
 								.uri("lb://PRODUCTS"))
 					.route(p -> p
 							.path("/ecart/customer/**")
